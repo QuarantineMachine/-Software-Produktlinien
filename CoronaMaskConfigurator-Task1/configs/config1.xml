@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="CoronaMaskConfigurator"/>
+	<feature automatic="selected" name="Frontend"/>
+	<feature automatic="selected" name="Corona Mask"/>
+	<feature name="Color"/>
+	<feature name="Red"/>
+	<feature name="Pink"/>
+	<feature name="Purpel"/>
+	<feature name="Black"/>
+	<feature name="Gray"/>
+	<feature name="Brown"/>
+	<feature name="Blue"/>
+	<feature name="Green"/>
+	<feature name="Rainbow"/>
+	<feature name="Beige"/>
+	<feature name="Kaki"/>
+	<feature automatic="selected" name="Edition"/>
+	<feature manual="selected" name="Private"/>
+	<feature automatic="unselected" name="Medical"/>
+	<feature name="Special Features"/>
+	<feature name="Zipper"/>
+	<feature name="Metal Nose Clip"/>
+	<feature automatic="selected" name="Material"/>
+	<feature automatic="unselected" name="Toilet Paper"/>
+	<feature manual="selected" name="Fleece"/>
+	<feature automatic="unselected" name="Cotton"/>
+	<feature automatic="unselected" name="Silk"/>
+	<feature automatic="selected" name="Material Layer"/>
+	<feature manual="selected" name="One"/>
+	<feature automatic="unselected" name="Two"/>
+	<feature automatic="unselected" name="Three"/>
+	<feature automatic="selected" name="Availability"/>
+	<feature automatic="selected" name="Price"/>
+	<feature automatic="selected" name="Quantity"/>
+	<feature automatic="selected" name="Backend"/>
+	<feature automatic="selected" name="Delivery Area"/>
+	<feature manual="selected" name="Germany"/>
+	<feature name="EU"/>
+	<feature name="Evil Features"/>
+	<feature name="Gender Factor"/>
+	<feature name="Male"/>
+	<feature name="Female"/>
+	<feature name="Age Factor"/>
+	<feature name="0 to 25"/>
+	<feature name="26 to 45"/>
+	<feature name="46 until death"/>
+	<feature name="Device Factor"/>
+	<feature name="Apple"/>
+	<feature name="Other"/>
+	<feature automatic="selected" name="Price Calculator"/>
+	<feature automatic="selected" name="Base Price"/>
+	<feature name="Surcharge"/>
+	<feature name="Selected Color"/>
+	<feature name="Selected Edition"/>
+	<feature name="Selected Special Features"/>
+	<feature name="Selected Material"/>
+	<feature name="Selected Layer"/>
+	<feature automatic="selected" name="Stock Calculator"/>
+</configuration>
