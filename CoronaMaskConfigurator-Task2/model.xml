@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="showhiddenfeatures" value="true"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and mandatory="true" name="CoronaMaskConfigurator">
+			<description>Create your individual corona mask with our online Corona Mask Configurator.</description>
+			<and mandatory="true" name="Frontend">
+				<description>Frontend of Online-Shop</description>
+				<and mandatory="true" name="Corona Mask">
+					<description>Your Corona Mask. Mandatory.</description>
+					<alt name="Color">
+						<description>Select your color. If not select we will ship you a random color.</description>
+						<graphics key="collapsed" value="false"/>
+						<feature name="Red"/>
+						<feature name="Pink"/>
+						<feature name="Purpel"/>
+						<feature name="Black"/>
+						<feature name="Gray"/>
+						<feature name="Brown"/>
+						<feature name="Blue"/>
+						<feature name="Green"/>
+						<feature name="Rainbow"/>
+						<feature name="Beige"/>
+						<feature name="Kaki"/>
+					</alt>
+					<alt mandatory="true" name="Edition">
+						<description>
+							Decide which standard this mask should fulfill. &#13;
+							Is it for private usage or for medical purposes?
+						</description>
+						<feature name="Private">
+							<description>Private Purpose. Does not fulfill any standards.</description>
+						</feature>
+						<feature name="Medical">
+							<description>Private Purpose. Fulfills medical standards.</description>
+						</feature>
+					</alt>
+					<or name="Special Features">
+						<description>Some Special Features the customers can select.</description>
+						<feature name="Zipper">
+							<description>
+								Mask contains a zipper &#13;
+								so that you can eat and drink while wearing the mask.
+							</description>
+						</feature>
+						<feature name="Metal Nose Clip">
+							<description>Perfect for wearer of glasses. Your glasses won't become fogged.</description>
+						</feature>
+					</or>
+					<alt mandatory="true" name="Material">
+						<description>Customer can decide which material they want to have.</description>
+						<feature name="Toilet Paper">
+							<description>Our low-quality material but surprisingly high-prized.</description>
+						</feature>
+						<feature name="Fleece">
+							<description>Nothing special about it.</description>
+						</feature>
+						<feature name="Cotton">
+							<description>Can be washed at 60 degree celsius.</description>
+						</feature>
+						<feature name="Silk">
+							<description>High class material.</description>
+						</feature>
+					</alt>
+					<alt mandatory="true" name="Material Layer">
+						<description>Customer selects how much layer they want.</description>
+						<feature name="One">
+							<description>Easy to breathe.</description>
+						</feature>
+						<feature name="Two">
+							<description>Not so easy to breathe.</description>
+						</feature>
+						<feature name="Three">
+							<description>Are you crazy? Only veterans can breathe through this.</description>
+						</feature>
+					</alt>
+					<feature mandatory="true" name="Availability">
+						<description>Displays whether your configuration is available.</description>
+					</feature>
+					<feature mandatory="true" name="Price">
+						<description>Displays the price of your selected configuration.</description>
+					</feature>
+					<feature mandatory="true" name="Quantity">
+						<description>
+							Displays a Quantity field where you can select how many&#13;
+							mask you want to order.
+						</description>
+					</feature>
+				</and>
+			</and>
+			<and mandatory="true" name="Backend">
+				<description>The backend of our online-shop.</description>
+				<or mandatory="true" name="Delivery Area">
+					<description>Where the order can be shipped.</description>
+					<feature name="Germany">
+						<description>Germany with all its islands and its 16 monarchies.</description>
+					</feature>
+					<feature name="EU">
+						<description>Countries other than germany in the EU.</description>
+					</feature>
+				</or>
+				<and name="Evil Features">
+					<description>
+						Evil price calculation modules can be selected here.&#13;
+						Dependend on the implemented feature.&#13;
+						The price is calculated accordingly.
+					</description>
+					<graphics key="collapsed" value="false"/>
+					<or name="Gender Factor">
+						<description>
+							Price depends on the gender.&#13;
+							&#13;
+							The gender will be identified for example by the selected color.&#13;
+							For example pink, red or purple will assume that this person&#13;
+							is a female.
+						</description>
+						<feature name="Male">
+							<description>
+								Price does not change for Males or dependent &#13;
+								on selected option just slightly higher.
+							</description>
+						</feature>
+						<feature name="Female">
+							<description>Price will be higher if you are a female.</description>
+						</feature>
+					</or>
+					<or name="Age Factor">
+						<description>Age determines how much you pay.</description>
+						<feature name="0 to 25">
+							<description>
+								Will be prized much higher because they are stupid and&#13;
+								just want their product in time.
+							</description>
+						</feature>
+						<feature name="26 to 45">
+							<description>
+								Will be prized moderate higher because they are more&#13;
+								experienced.
+							</description>
+						</feature>
+						<feature name="46 until death">
+							<description>Will be prized a little bit higher because they are not that stupid.</description>
+						</feature>
+					</or>
+					<or name="Device Factor">
+						<description>Dependend on the used device the price will be higher.</description>
+						<feature name="Apple">
+							<description>
+								Price will be higher because if they can afford an apple device&#13;
+								they can afford a more expensive mask.
+							</description>
+						</feature>
+						<feature name="Other">
+							<description>
+								Price will not change here because the other device users&#13;
+								are broke for sure.
+							</description>
+						</feature>
+					</or>
+				</and>
+				<and mandatory="true" name="Price Calculator">
+					<description>Calculates the price to be shown in the frontend.</description>
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="Base Price">
+						<description>Price which is fix no matter what you select.</description>
+					</feature>
+					<or name="Surcharge">
+						<description>Additional cost dependent on what you have selected.</description>
+						<feature name="Selected Color">
+							<description>Selected option determines the price.</description>
+						</feature>
+						<feature name="Selected Edition">
+							<description>Selected option determines the price.</description>
+						</feature>
+						<feature name="Selected Special Features">
+							<description>Selected option determines the price.</description>
+						</feature>
+						<feature name="Selected Material">
+							<description>Selected option determines the price.</description>
+						</feature>
+						<feature name="Selected Layer">
+							<description>Selected option determines the price.</description>
+						</feature>
+					</or>
+				</and>
+				<feature mandatory="true" name="Stock Calculator">
+					<description>
+						Calculates whether the the selected configuration&#13;
+						is avaiable with our current stock and displays it on the frontend.&#13;
+						&#13;
+						For example our stock of color buckets of the color red is enough&#13;
+						to color let's say 10 masks.
+					</description>
+				</feature>
+			</and>
+		</and>
+	</struct>
+</featureModel>
