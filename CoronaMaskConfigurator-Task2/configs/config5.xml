@@ -2,7 +2,7 @@
 <configuration>
 	<feature automatic="selected" name="CoronaMaskConfigurator"/>
 	<feature automatic="selected" name="Frontend"/>
-	<feature automatic="selected" name="Corona Mask"/>
+	<feature automatic="selected" name="CoronaMask"/>
 	<feature automatic="selected" name="Color"/>
 	<feature automatic="unselected" name="Red"/>
 	<feature automatic="unselected" name="Pink"/>
@@ -18,15 +18,15 @@
 	<feature automatic="selected" name="Edition"/>
 	<feature automatic="unselected" name="Private"/>
 	<feature manual="selected" name="Medical"/>
-	<feature automatic="selected" name="Special Features"/>
+	<feature automatic="selected" name="SpecialFeatures"/>
 	<feature manual="selected" name="Zipper"/>
-	<feature manual="selected" name="Metal Nose Clip"/>
+	<feature name="MetalNoseClip"/>
 	<feature automatic="selected" name="Material"/>
-	<feature automatic="unselected" name="Toilet Paper"/>
+	<feature automatic="unselected" name="ToiletPaper"/>
 	<feature automatic="unselected" name="Fleece"/>
 	<feature automatic="unselected" name="Cotton"/>
 	<feature manual="selected" name="Silk"/>
-	<feature automatic="selected" name="Material Layer"/>
+	<feature automatic="selected" name="MaterialLayer"/>
 	<feature automatic="unselected" name="One"/>
 	<feature automatic="unselected" name="Two"/>
 	<feature manual="selected" name="Three"/>
@@ -34,27 +34,27 @@
 	<feature automatic="selected" name="Price"/>
 	<feature automatic="selected" name="Quantity"/>
 	<feature automatic="selected" name="Backend"/>
-	<feature automatic="selected" name="Delivery Area"/>
+	<feature automatic="selected" name="DeliveryArea"/>
 	<feature manual="selected" name="Germany"/>
 	<feature name="EU"/>
-	<feature automatic="selected" manual="selected" name="Evil Features"/>
-	<feature automatic="selected" manual="selected" name="Gender Factor"/>
+	<feature automatic="selected" name="EvilFeatures"/>
+	<feature automatic="selected" name="GenderFactor"/>
 	<feature manual="selected" name="Male"/>
 	<feature manual="selected" name="Female"/>
-	<feature automatic="selected" name="Age Factor"/>
-	<feature manual="selected" name="0 to 25"/>
-	<feature manual="selected" name="26 to 45"/>
-	<feature manual="selected" name="46 until death"/>
-	<feature automatic="selected" name="Device Factor"/>
+	<feature name="AgeFactor"/>
+	<feature name="ZeroToTwentyfive"/>
+	<feature name="TwentysixToFourtyfive"/>
+	<feature name="FourtysixUntilDeath"/>
+	<feature automatic="selected" name="DeviceFactor"/>
 	<feature manual="selected" name="Apple"/>
 	<feature manual="selected" name="Other"/>
-	<feature automatic="selected" name="Price Calculator"/>
-	<feature automatic="selected" name="Base Price"/>
+	<feature automatic="selected" name="PriceCalculator"/>
+	<feature automatic="selected" name="BasePrice"/>
 	<feature automatic="selected" manual="selected" name="Surcharge"/>
-	<feature manual="selected" name="Selected Color"/>
-	<feature manual="selected" name="Selected Edition"/>
-	<feature manual="selected" name="Selected Special Features"/>
-	<feature manual="selected" name="Selected Material"/>
-	<feature manual="selected" name="Selected Layer"/>
-	<feature automatic="selected" name="Stock Calculator"/>
+	<feature manual="selected" name="SelectedColor"/>
+	<feature manual="selected" name="SelectedEdition"/>
+	<feature manual="selected" name="SelectedSpecialFeatures"/>
+	<feature manual="selected" name="SelectedMaterial"/>
+	<feature manual="selected" name="SelectedLayer"/>
+	<feature automatic="selected" name="StockCalculator"/>
 </configuration>

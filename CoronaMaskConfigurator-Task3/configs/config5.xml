@@ -10,26 +10,26 @@
 	<feature automatic="unselected" name="Black"/>
 	<feature automatic="unselected" name="Gray"/>
 	<feature automatic="unselected" name="Brown"/>
-	<feature manual="selected" name="Blue"/>
+	<feature automatic="unselected" name="Blue"/>
 	<feature automatic="unselected" name="Green"/>
-	<feature automatic="unselected" name="Rainbow"/>
+	<feature manual="selected" name="Rainbow"/>
 	<feature automatic="unselected" name="Beige"/>
 	<feature automatic="unselected" name="Kaki"/>
 	<feature automatic="selected" name="Edition"/>
-	<feature manual="selected" name="Private"/>
-	<feature automatic="unselected" name="Medical"/>
-	<feature name="SpecialFeatures"/>
-	<feature name="Zipper"/>
+	<feature automatic="unselected" name="Private"/>
+	<feature manual="selected" name="Medical"/>
+	<feature automatic="selected" manual="selected" name="SpecialFeatures"/>
+	<feature manual="selected" name="Zipper"/>
 	<feature name="MetalNoseClip"/>
 	<feature automatic="selected" name="Material"/>
 	<feature automatic="unselected" name="ToiletPaper"/>
 	<feature automatic="unselected" name="Fleece"/>
-	<feature manual="selected" name="Cotton"/>
-	<feature automatic="unselected" name="Silk"/>
+	<feature automatic="unselected" name="Cotton"/>
+	<feature manual="selected" name="Silk"/>
 	<feature automatic="selected" name="MaterialLayer"/>
 	<feature automatic="unselected" name="One"/>
-	<feature manual="selected" name="Two"/>
-	<feature automatic="unselected" name="Three"/>
+	<feature automatic="unselected" name="Two"/>
+	<feature manual="selected" name="Three"/>
 	<feature automatic="selected" name="Availability"/>
 	<feature automatic="selected" name="Price"/>
 	<feature automatic="selected" name="Quantity"/>
@@ -40,21 +40,21 @@
 	<feature automatic="selected" name="EvilFeatures"/>
 	<feature automatic="selected" name="GenderFactor"/>
 	<feature manual="selected" name="Male"/>
-	<feature name="Female"/>
+	<feature manual="selected" name="Female"/>
 	<feature name="AgeFactor"/>
 	<feature name="ZeroToTwentyfive"/>
 	<feature name="TwentysixToFourtyfive"/>
 	<feature name="FourtysixUntilDeath"/>
-	<feature name="DeviceFactor"/>
-	<feature name="Apple"/>
-	<feature name="Other"/>
+	<feature automatic="selected" name="DeviceFactor"/>
+	<feature manual="selected" name="Apple"/>
+	<feature manual="selected" name="Other"/>
 	<feature automatic="selected" name="PriceCalculator"/>
 	<feature automatic="selected" name="BasePrice"/>
-	<feature name="Surcharge"/>
-	<feature name="SelectedColor"/>
-	<feature name="SelectedEdition"/>
-	<feature name="SelectedSpecialFeatures"/>
-	<feature name="SelectedMaterial"/>
-	<feature name="SelectedLayer"/>
+	<feature automatic="selected" manual="selected" name="Surcharge"/>
+	<feature manual="selected" name="SelectedColor"/>
+	<feature manual="selected" name="SelectedEdition"/>
+	<feature manual="selected" name="SelectedSpecialFeatures"/>
+	<feature manual="selected" name="SelectedMaterial"/>
+	<feature manual="selected" name="SelectedLayer"/>
 	<feature automatic="selected" name="StockCalculator"/>
 </configuration>

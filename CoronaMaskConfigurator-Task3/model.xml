@@ -43,30 +43,30 @@
 							<description>Private Purpose. Fulfills medical standards.</description>
 						</feature>
 					</alt>
-					<or abstract="true" name="SpecialFeatures">
+					<or name="SpecialFeatures">
 						<description>Some Special Features the customers can select.</description>
-						<feature abstract="true" name="Zipper">
+						<feature name="Zipper">
 							<description>
 								Mask contains a zipper
 								so that you can eat and drink while wearing the mask.
 							</description>
 						</feature>
-						<feature abstract="true" name="MetalNoseClip">
+						<feature name="MetalNoseClip">
 							<description>Perfect for wearer of glasses. Your glasses won't become fogged.</description>
 						</feature>
 					</or>
-					<alt abstract="true" mandatory="true" name="Material">
+					<alt mandatory="true" name="Material">
 						<description>Customer can decide which material they want to have.</description>
-						<feature abstract="true" name="ToiletPaper">
+						<feature name="ToiletPaper">
 							<description>Our low-quality material but surprisingly high-prized.</description>
 						</feature>
-						<feature abstract="true" name="Fleece">
+						<feature name="Fleece">
 							<description>Nothing special about it.</description>
 						</feature>
-						<feature abstract="true" name="Cotton">
+						<feature name="Cotton">
 							<description>Can be washed at 60 degree celsius.</description>
 						</feature>
-						<feature abstract="true" name="Silk">
+						<feature name="Silk">
 							<description>High class material.</description>
 						</feature>
 					</alt>
